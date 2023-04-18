@@ -1,0 +1,50 @@
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    margin: 0 auto;
+    max-width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #ffbb00;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+    font-family: Poppins, sans-serif;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffbb00;
+}
+
+#resultadoIMC {
+    font-weight: bold;
+    text-align: center;
+}
