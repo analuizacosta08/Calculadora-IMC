@@ -1,4 +1,3 @@
-// script.js
 function calcularIMC() {
     // Obter os valores de peso e altura do formulário
     var peso = parseFloat(document.getElementById('peso').value);
